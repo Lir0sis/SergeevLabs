@@ -1,0 +1,11 @@
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\bin\Debug\netcoreapp3.0\Stack.deps.json
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\bin\Debug\netcoreapp3.0\Stack.dll
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\bin\Debug\netcoreapp3.0\Stack.pdb
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\obj\Debug\netcoreapp3.0\Stack.csprojAssemblyReference.cache
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\obj\Debug\netcoreapp3.0\Stack.AssemblyInfoInputs.cache
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\obj\Debug\netcoreapp3.0\Stack.AssemblyInfo.cs
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\obj\Debug\netcoreapp3.0\Stack.dll
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\obj\Debug\netcoreapp3.0\Stack.pdb
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\bin\Debug\netcoreapp3.0\Stack.exe
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\bin\Debug\netcoreapp3.0\Stack.runtimeconfig.json
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\Stack\bin\Debug\netcoreapp3.0\Stack.runtimeconfig.dev.json

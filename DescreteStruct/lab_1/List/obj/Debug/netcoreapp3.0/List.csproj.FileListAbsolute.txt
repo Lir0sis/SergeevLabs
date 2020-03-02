@@ -1,0 +1,11 @@
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\bin\Debug\netcoreapp3.0\List.exe
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\bin\Debug\netcoreapp3.0\List.deps.json
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\bin\Debug\netcoreapp3.0\List.runtimeconfig.json
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\bin\Debug\netcoreapp3.0\List.runtimeconfig.dev.json
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\bin\Debug\netcoreapp3.0\List.dll
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\bin\Debug\netcoreapp3.0\List.pdb
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\obj\Debug\netcoreapp3.0\List.csprojAssemblyReference.cache
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\obj\Debug\netcoreapp3.0\List.AssemblyInfoInputs.cache
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\obj\Debug\netcoreapp3.0\List.AssemblyInfo.cs
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\obj\Debug\netcoreapp3.0\List.dll
+C:\Users\Valentine\GitHub\SergeevLabs\DescreteStruct\lab_1\List\obj\Debug\netcoreapp3.0\List.pdb
