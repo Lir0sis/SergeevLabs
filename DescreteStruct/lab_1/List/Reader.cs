@@ -1,11 +1,13 @@
-﻿using System;
+﻿#define test
+using System;
 using System.IO;
 
 namespace List
 {
     class Reader
     {
-        private const int buferSize = 1024;
+        private const int bufferSize = 128;
+        private int bufferCounts = 0;
         public string path;
         public Reader(string fileName)
         {
@@ -26,16 +28,15 @@ namespace List
 
             if (fs == null) fs = ReadFile();
 
-            byte[] data = new byte[buferSize];
+            byte[] data = new byte[bufferSize];
+            
 
-
-            if ((count = fs.Read(data, 0, buferSize)) <= 0)
+            if ((count = fs.Read(data, 0, bufferSize)) <= 0)
             {
-                fs.Close();
+                fs.Dispose();
                 return null;
 
             }
-
             return data;
         }
     }

@@ -8,7 +8,7 @@ namespace generator
         static void Main(string[] args)
         {
 
-            Random rand = new Random();
+            Random rand = new Random(DateTime.Now.Millisecond);
 
             Console.Write("Название файла: ");
             string path = Directory.GetCurrentDirectory() + "\\" + Console.ReadLine();
