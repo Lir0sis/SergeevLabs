@@ -1,4 +1,4 @@
 @echo off
-generator.exe 1000 out
+generator.exe 3000000 3kk
 pause
 git bash
