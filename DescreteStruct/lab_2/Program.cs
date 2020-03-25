@@ -7,25 +7,16 @@ namespace lab_2 {
 	
 	
 	class Program {
-		static void Main() {
-
-			var map = new HashmapClosed<string, string>(512);
-			map.Add("Oleg", "Valentina");
-			map.Add("Valentine", "Olga");
-			Console.WriteLine("Oleg -> " + map.Find("Oleg").Value);
-			Console.ReadKey();
-		}
         static void Main(string[] args)
         {
             Reader rd = new Reader(Console.ReadLine());
             Stopwatch st = new Stopwatch();
 
-            HashmapClosed<byte, byte> closedMap = null;
-            List<byte> keys = new List<byte>();
+            List<string> keys = new List<string>();
             float popping = 0;
             float pushing = 0;
 
-            closedMap = new HashmapClosed<byte, byte>();
+            var map = new HashmapClosed<string, string>();
             int count;
 
             while (true)
@@ -36,13 +27,14 @@ namespace lab_2 {
                     break;
 
                 
-                for (int i = 0; i < count; i++)
+                for (int i = 0; i < count / 32; i++)
                 {
+                    string key = BitConverter.ToString(data, i, 32);
                     st.Start();
-                    closedMap.Add(data[i], data[i]);
+                    map.Add(key, key);
                     st.Stop();
                     pushing += (float)st.ElapsedMilliseconds / 1000;
-                    keys.Add(data[i * 2]);
+                    keys.Add(key);
                 }
 
             }
@@ -50,15 +42,16 @@ namespace lab_2 {
             st.Reset();
 
             st.Start();
-            for (int i = 0; i < keys.Count; i++)
+            foreach (var key in keys)
             {
-                closedMap.Remove(keys[i]);
+                map.Remove(key);
             }
             st.Stop();
 
             popping = (float)st.ElapsedMilliseconds / 1000;
             Console.WriteLine("Pushing: " + pushing);
             Console.WriteLine("Poping: " + popping);
+            Console.ReadKey();
         }
     }
 }

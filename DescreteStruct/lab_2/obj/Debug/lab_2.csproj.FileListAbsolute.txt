@@ -1,4 +1,3 @@
-D:\dev\SergeevLabs\DescreteStruct\lab_2\obj\Debug\lab_2.csprojAssemblyReference.cache
 D:\dev\SergeevLabs\DescreteStruct\lab_2\bin\Debug\lab_2.exe.config
 D:\dev\SergeevLabs\DescreteStruct\lab_2\bin\Debug\lab_2.exe
 D:\dev\SergeevLabs\DescreteStruct\lab_2\bin\Debug\lab_2.pdb
@@ -11,3 +10,4 @@ D:\Valik\dev\GitHub\SergeevLabs\DescreteStruct\lab_2\obj\Debug\lab_2.csprojAssem
 D:\Valik\dev\GitHub\SergeevLabs\DescreteStruct\lab_2\obj\Debug\lab_2.csproj.CoreCompileInputs.cache
 D:\Valik\dev\GitHub\SergeevLabs\DescreteStruct\lab_2\obj\Debug\lab_2.exe
 D:\Valik\dev\GitHub\SergeevLabs\DescreteStruct\lab_2\obj\Debug\lab_2.pdb
+D:\dev\SergeevLabs\DescreteStruct\lab_2\obj\Debug\lab_2.csprojAssemblyReference.cache

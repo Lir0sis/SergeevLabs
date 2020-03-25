@@ -38,7 +38,7 @@ namespace Hashmap {
 		}
 
 		private int GetIndex(KeyType key) {
-			return key.GetHashCode() % m_size;
+			return Math.Abs(key.GetHashCode() % m_size);
 		}
 
 		private List<KeyPair<KeyType, ValueType>>[] m_buckets;
@@ -51,12 +51,23 @@ namespace Hashmap {
 			m_buckets = new KeyPair<KeyType, ValueType>[size];
 		}
 		public void Add(KeyType key, ValueType value) {
-			var i = Probe(key);
-			if (i != BAD_INDEX) m_buckets[i] = new KeyPair<KeyType, ValueType>(key, value);
-			else {
-				Resize(m_size * 2);
-				m_buckets[Probe(key)] = new KeyPair<KeyType, ValueType>(key, value);
+			while(true) {
+				var i = Probe(key);
+				if (i != BAD_INDEX) {
+					m_buckets[i] = new KeyPair<KeyType, ValueType>(key, value);
+					break;
+				}
+				else {
+					Resize(m_size * 2);
+					continue;
+				}
 			}
+			//var i = Probe(key);
+			//if (i != BAD_INDEX) m_buckets[i] = new KeyPair<KeyType, ValueType>(key, value);
+			//else {
+			//	
+			//	m_buckets[Probe(key)] = new KeyPair<KeyType, ValueType>(key, value);
+			//}
 		}
 		public void Remove(KeyType key) {
 			var i = Probe(key);
@@ -74,12 +85,12 @@ namespace Hashmap {
 			return BAD_INDEX;
 		}
 		private int GetRawIndex(KeyType key) {
-			return key.GetHashCode() % m_size;
+			return Math.Abs(key.GetHashCode() % m_size);
 		}
 		private void Resize(int size) {
 			var map = new HashmapClosed<KeyType, ValueType>(size);
 			foreach(var kv in m_buckets) {
-				map.Add(kv.Key, kv.Value);
+				if(kv != null) map.Add(kv.Key, kv.Value);
 			}
 			m_buckets = map.m_buckets;
 			m_size = map.m_size;
