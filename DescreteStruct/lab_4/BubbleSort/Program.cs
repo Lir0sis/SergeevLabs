@@ -36,14 +36,14 @@ namespace BubbleSort
             }
                 intArray = BubbleSort(intArray);
             st.Stop();
-            time = (float)st.ElapsedMilliseconds /1000;
-            Console.WriteLine("\n---"+time);
+            time = (float)st.ElapsedMilliseconds / 1000;
+            Console.WriteLine("---\n" + time);
            /* for(int i =0; i < intArray.Length; i++)
             {
                 Console.Write(intArray[i] + " ;");
             }*/
             Console.WriteLine();
-            
+            Console.ReadLine();
 
         }
         static public int[] BubbleSort(int[] inputArray)

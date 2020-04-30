@@ -5,7 +5,6 @@ using System.Collections.Generic;
 
 namespace lab_2 {
 	
-	
 	class Program {
         static void Main(string[] args)
         {
@@ -49,8 +48,8 @@ namespace lab_2 {
             st.Stop();
 
             popping = (float)st.ElapsedMilliseconds / 1000;
-            Console.WriteLine("Pushing: " + pushing);
-            Console.WriteLine("Poping: " + popping);
+            Console.WriteLine("Inserting: " + pushing);
+            Console.WriteLine("Removing: " + popping);
             Console.ReadKey();
         }
     }
