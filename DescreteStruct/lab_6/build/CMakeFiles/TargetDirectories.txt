@@ -1,0 +1,4 @@
+/home/m-tataryn/dev/SergeevLabs/DescreteStruct/lab_6/build/CMakeFiles/rebuild_cache.dir
+/home/m-tataryn/dev/SergeevLabs/DescreteStruct/lab_6/build/CMakeFiles/edit_cache.dir
+/home/m-tataryn/dev/SergeevLabs/DescreteStruct/lab_6/build/CMakeFiles/profile_bfs.dir
+/home/m-tataryn/dev/SergeevLabs/DescreteStruct/lab_6/build/CMakeFiles/profile_dfs.dir

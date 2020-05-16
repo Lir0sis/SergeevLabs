@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/graph.h
+vector
+-
+list
+-
+stack
+-
+queue
+-
+unordered_set
+-
+iostream
+-
+
+/home/m-tataryn/dev/SergeevLabs/DescreteStruct/lab_6/src/profile.cpp
+chrono
+-
+functional
+-
+cstdlib
+-
+graph.h
+-
+
