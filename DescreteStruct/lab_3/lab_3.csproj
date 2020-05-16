@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C56E64C9-5B7E-4434-A766-C08F3AA18EE1}</ProjectGuid>
+    <ProjectGuid>{85571578-A3F2-4D2F-8116-38CC8A18C0F2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>lab_3</RootNamespace>
     <AssemblyName>lab_3</AssemblyName>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Reader.cs" />
+    <Compile Include="Tree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
