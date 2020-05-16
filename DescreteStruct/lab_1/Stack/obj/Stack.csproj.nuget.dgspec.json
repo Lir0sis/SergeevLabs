@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Valentine\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\Stack.csproj": {}
+    "D:\\Valik\\dev\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\Stack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Valentine\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\Stack.csproj": {
+    "D:\\Valik\\dev\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\Stack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valentine\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\Stack.csproj",
+        "projectUniqueName": "D:\\Valik\\dev\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\Stack.csproj",
         "projectName": "Stack",
-        "projectPath": "C:\\Users\\Valentine\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\Stack.csproj",
+        "projectPath": "D:\\Valik\\dev\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\Stack.csproj",
         "packagesPath": "C:\\Users\\Valentine\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valentine\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\obj\\",
+        "outputPath": "D:\\Valik\\dev\\GitHub\\SergeevLabs\\DescreteStruct\\lab_1\\Stack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Valentine\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Valentine\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,21 +39,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

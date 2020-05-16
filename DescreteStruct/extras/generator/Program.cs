@@ -13,8 +13,8 @@ namespace generator
             Console.Write("Название файла: ");
             string path = Directory.GetCurrentDirectory() + "\\" + Console.ReadLine();
 
-            Console.Write("Количество: ");
-            int amount = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Количество (int): ");
+            int amount = 4 * Convert.ToInt32(Console.ReadLine());
 
             byte[] bytes = null;
 
